@@ -1,0 +1,47 @@
+﻿{
+  "upstream_commit": "a2806c6732eee8d27762edd6d864e0c179d8e9e8",
+  "kmeans": {
+    "iterations": 3,
+    "ari_vs_truth": 1.0,
+    "ari_vs_sklearn": 1.0,
+    "inertia": 318.8584975074824,
+    "sklearn_inertia": 318.8584975074824
+  },
+  "decision_tree": {
+    "test_samples": 45,
+    "accuracy": 0.9111111111111111,
+    "sklearn_accuracy": 0.9333333333333333,
+    "agreement_with_sklearn": 0.9333333333333333,
+    "tree_depth": 5
+  },
+  "linear_regression": {
+    "test_samples": 60,
+    "mse": 64.54847641712655,
+    "r2": 0.9898276483220795,
+    "sklearn_mse": 64.54847853891259,
+    "sklearn_r2": 0.9898276479877021,
+    "max_prediction_difference_vs_sklearn": 1.0520715477468912e-05,
+    "estimated_intercept": -0.30935118466587924,
+    "estimated_coefficients": [
+      54.41524939658015,
+      63.08248755871661,
+      26.282829745872764
+    ],
+    "generating_coefficients": [
+      54.16342146608669,
+      63.347821982614725,
+      26.867735938494608
+    ],
+    "original_svd_path": {
+      "mse": 17722.339856742965,
+      "r2": -1.7929067204223563,
+      "status": "expected failure reproduced: upstream treats NumPy Vh as V"
+    },
+    "corrected_svd_diagnostic": {
+      "mse": 64.54847853891252,
+      "r2": 0.9898276479877021,
+      "max_prediction_difference_vs_sklearn": 8.526512829121202e-14
+    }
+  }
+}
+ALL_ACCEPTANCE_CHECKS_PASSED
